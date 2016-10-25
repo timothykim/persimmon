@@ -2,8 +2,7 @@ package persimmon.mongodb
 
 import org.mongodb.scala.MongoClient
 import org.scalatest.WordSpec
-import persimmon.Persistable
-import persimmon.mongodb.MongoDao.NotFound
+import persimmon._
 
 import scala.concurrent.Await
 import scala.concurrent.duration.Duration
@@ -47,11 +46,7 @@ class EncoderSpec extends WordSpec {
         }
       }
     }
-
   }
-
-
-
 }
 
 object EncoderSpec {
