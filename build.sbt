@@ -5,6 +5,8 @@ version := "0.1.0"
 
 scalaVersion := "2.11.8"
 
+organization := "com.github.timothykim"
+
 libraryDependencies ++= Seq(
   "org.typelevel"     %% "cats"               % "0.7.0",
   "org.mongodb.scala" %% "mongo-scala-driver" % "1.1.1",
